@@ -15,7 +15,7 @@ def main():
     parser.add_argument('-a', '--address', type=str, help='Set IP address to connect to (client) / IP address to listen for a connection on (server)')
     parser.add_argument('-p', '--port', type=int, help='Set port number to connect to (client) / port number to listen for a connection on (server)')
     parser.add_argument('-b', '--buffer', type=int, const=131072, nargs='?', default=131072, help='Set buffer size')
-    parser.add_argument('-s', '--separator', type=str, const='<separator>', nargs='?', default='<separator>', help='Set separator between type of request and data, default: <separator>')
+    parser.add_argument('-s', '--separator', type=str, const='<separator>', nargs='?', default='<separator>', help='Set separator between type of request and data')
     parser.add_argument('-l', '--listen', action='store_true', help='Listen for incoming connections')
 
     args = parser.parse_args()
