@@ -20,6 +20,14 @@
  Server: `reversit -a 10.123.10.55 -p 7258 -b -s -l`
  Client: `reversit -a 10.123.10.55 -p 7258 -b -s`
 
+## 🪛 Features
+* When the client side closes connection, the server will keep on listening for another connection
+* Ability to change directory
+
+### 🍴 Fork it!
+### ⭐️ Star it!
+### ❕Report issues!
+
 ## ⚙️ How Reversit Works
 1. Server: `reversit -a 10.123.10.55 -p 7258 -b -s -l` <-- Starts listening on 127.0.0.1:7258
 2. Client: `reversit -a 10.123.10.55 -p 7258 -b -s` <-- Connects to server on 127.0.0.1:7258
