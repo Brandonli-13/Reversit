@@ -1,0 +1,12 @@
+#!/bin/bash
+
+pip3.10 install colorama
+
+sudo mkdir /opt/Reversit/
+
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+REVERSIT_PATH=$SCRIPT_DIR/Reversit.py
+
+sudo cp $REVERSIT_PATH /opt/Reversit/Reversit.py
+sudo ln -s /opt/Reversit/Reversit.py /usr/local/bin/reversit
+sudo chmod +x /usr/local/bin/reversit
