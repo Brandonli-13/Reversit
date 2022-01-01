@@ -12,7 +12,7 @@
 
 ## 🔨 Usage
 ### Flags
- `-h`, `--help`: Display help message
+ `-h`, `--help`: Display help message<br/>
  `-a`, `--address`: Set IP address to connect to (client) / IP address to listen for a connection on (server)<br/>
  `-p`, `--port`: Set port number to connect to (client) / port number to listen for a connection on (server)<br/>
  `-b`, `--buffer`: Set buffer size, default: 131072 (bytes)<br/>
@@ -20,7 +20,7 @@
  `-l`, `--listen`: Listen for incoming connections<br/>
 
 ### Quick Usage
- Server: `reversit -a 10.123.10.55 -p 7258 -b -s -l`
+ Server: `reversit -a 10.123.10.55 -p 7258 -b -s -l`<br/>
  Client: `reversit -a 10.123.10.55 -p 7258 -b -s`
 
 ## 🪛 Features
