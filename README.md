@@ -1,5 +1,5 @@
 # ![Reversit](/img/Reversit.png)
-## Persistent Reverse Shell Written in Python 3
+## Reverse Shell Written in Python 3
 ## 🔧 Installation
  You will need:
  * Python version 3.10
